@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== EMAIL SERVICE ====================-->
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Email.JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('gF3M_-jS8KuvoCpV4');
+            })();
+        </script>
+
+        <!--==================== CALENDAR SERVICE ====================-->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+        <!--==================== TITLE and Favicon ====================-->
+        <title>Liagkou's Portfolio 👋</title>
+        <!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> --> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+        <!-- MS Tile - for Microsoft apps-->
+        <meta name="msapplication-TileImage" content="https://github.com/nucerl/myPortfolio/blob/main/assets/snaps/light.png?raw=true" />    
+
+        <!-- HTML Meta Tags -->
+        <title>Liagkou's Portfolio 👋</title>
+        <meta name="description" content="High-level experience in nuclear safety analysis and multinational nuclear project development.">
+
+
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Konstantina Liagkou</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qual" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Qualifications
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#paper" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Research
+                            </a>
+                        </li>
+
+                        
+
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change Buttons -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home" data-id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/konstantina-liagkou-ba9b671b5/" 
+                            target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt" ></i>
+                            </a>
+                            <!--<a href="https://www.researchgate.net/profile/Erol-Bicer/research" target="_blank" class="home__social-icon">
+                                <i class="uil uil-book-open"></i>
+                            </a>-->  <!-- TODO: Delete comments -->
+                            <a href="https://github.com/Connalia" target="_blank" 
+                            class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <circle cx="100" cy="93.5" r="93.5"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <!--<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>-->
+                                    <circle cx="100" cy="93.5" r="93.5"/>
+
+                                    <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/perfil.png"/>  <!-- TODO: Image from my face -->
+                                </g>
+                            </svg>
+                            <!--
+                            <ul>
+                                <li class="row">
+                                    <div class="col-xs-10 col-sm-6 col-md-10 col-lg-6">
+                                        <i class="uil uil-calendar-alt"> 04/04/1997</i>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="https://www.linkedin.com/in/konstantina-liagkou-ba9b671b5/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/Connalia" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>-->
+                            
+                        </div>
+
+                        <div class="home__data">
+                            <h3 class="home__subtitle">Hello, my name is</h3>
+                            <h1 class="home__title">Konstantina Liagkou</h1>
+                            <h1 class="home__subtitle">I'm a AI Researcher and Machine Learning Engineer</h1>
+                            
+                            <p class="home__description">
+                                Passionate about programming and High-level experience in Artificial Intelligence at the Deep Learning 
+                                in the Natural Language Preprocessing, Time Series and Computer Vision. 
+                                A versatile, analytical and hard-working data scientist, 
+                                with a practical “plan your work and work your plan” approach, 
+                                who always aims to achieve the best results. 
+                            </p>
+                            
+                            <div class="about__info">
+                                <div>
+                                    <span class="about__info-title">01+</span>
+                                    <span class="about__info-name">Years' <br> Experience</span>
+                                </div>
+    
+                                <div>
+                                    <span class="about__info-title">25+</span>
+                                    <span class="about__info-name">Projects <br> Completed</span>
+                                </div>
+    
+                                <div>
+                                    <span class="about__info-title">03</span>
+                                    <span class="about__info-name">Research <br> Published</span>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <!--<i class="uil uil-mouse-alt home__scroll-mouse"></i>-->
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+        
+
+            <!--==================== SKILLS ====================-->
+            
+            
+            
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section" id="qual" data-id="qual">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">Academic and Professional Career</span>
+
+                <!--==================== QUALIFICATION: EDUCATION ====================-->
+                    
+                <div id="edu" class="resume-title-qual"> 
+                    <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content qualification__active" >
+                         <!--==================== QUALIFICATION: EDUCATION  1 ====================-->
+                         <div class="qualification__data">
+                            <div>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2015 - 2020
+                                </div>
+
+                                <h3 class="qualification__degree">B.Sc.</h3>
+                                <h3 class="qualification__tittle">Informatics - Computer Science</h3>
+                                <span class="qualification__subtitle">Athens University Of Economics and Business</span>
+                                
+                                <span class="qualification__subtitle">
+                                    Grade 8.04/10 (took 44th place)
+                                </span>
+
+                                <span class="qualification__subtitle">
+                                    Belonging to 5.79% of the top graduates of the department 
+                                </span>
+
+                                <span class="qualification__subtitle_module">
+                                    Selected Modules :
+                                </span>
+                                <span class="qualification__subtitle_module">
+                                    -Databases and Knowledge Management
+                                </span>
+                                <span class="qualification__subtitle_module">
+                                    -Information Systems and Information Security
+                                </span>
+
+                                
+
+                                
+                            </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                         <!--==================== QUALIFICATION: EDUCATION  2 ====================-->
+                         <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2021
+                                </div>
+
+                                <h3 class="qualification__degree">M.Sc.</h3>
+                                <h3 class="qualification__tittle">Data Science</h3>
+                                <span class="qualification__subtitle">Athens University Of Economics and Business</span>
+                                
+                                <span class="qualification__subtitle">
+                                    Grade 9.38/10 (took 4th place)
+                                </span>
+
+                                <p class="qualification__subtitle">
+                                    <i class="uil uil-award"></i>
+                                    Scholarship: Academic excellence award
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!--==================== QUALIFICATION: WORK EXPERIENCE ====================-->
+                        
+                <div id="edu" class="resume-title-qual"> 
+                    <br> 
+                    <i class="uil uil-briefcase-alt qualification__icon"></i>
+                    Work Experience 
+                    <br> 
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content">
+                        <!--==================== QUALIFICATION: WORK  1 ====================-->
+                        <div class="qualification__data">
+                           <div>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jul  2021 – Mar 2022 
+                                </div>
+                               <h3 class="qualification__tittle">Time Series Researcher</h3>
+                               <span class="qualification__subtitle"> Scientific Games Digital</span>
+
+                               <span class="qualification__subtitle">Collaboration for  “Capstone Project”: 
+                                Time series fore/nowcasting  to detect cannibalization and halo impact 
+                                of new games using deep learning approachies</span>
+                               
+                           </div>
+                           <div>
+                               <span class="qualification__rounder"></span>
+                               <span class="qualification__line"></span>
+                           </div>
+                       </div>
+
+                        <!--==================== QUALIFICATION: WORK  2 ====================-->
+                        <div class="qualification__data">
+                           <div></div>
+                           <div>
+                               <span class="qualification__rounder"></span>
+                               <span class="qualification__line"></span>
+                           </div>
+
+                           <div>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jan 2022 – Jun 2023
+                                </div>
+                               <h3 class="qualification__tittle">NLP Research Assistant</h3>
+                               <span class="qualification__subtitle">Stockholm University</span>
+
+                               <span class="qualification__subtitle">Participation in NLP for 
+                                geospatial research in digital Japanese art history</span>
+                           </div>
+
+                       </div>
+
+                        <!--==================== QUALIFICATION: WORK  3 ====================-->
+                        <div class="qualification__data">
+                           <div>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Apr 2022 - Jul 2023
+                                </div>
+                               <h3 class="qualification__tittle">Junior ML Engineer</h3>
+                               
+                            </div>
+                           <div>
+                               <span class="qualification__rounder"></span>
+                               <span class="qualification__line"></span>
+                           </div>
+                       </div>
+
+                       <div class="qualification__data">
+                        <div>
+                             <div class="qualification__calendar">
+                                 <i class="uil uil-calendar-alt"></i>
+                                 Jul 2023 - Present
+                             </div>
+                            <h3 class="qualification__tittle">Mid ML Engineer</h3>
+                            <span class="qualification__subtitle">Athens Technology Center</span>
+                            <span class="qualification__subtitle">Contribution to commercial and over five EU Horizon AI 
+                             projects using Agile methodology by belonging to the R&D department. 
+                             Implementing appropriate ML & Deep Learning systems</span>
+                         </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                    </div>
+
+                   </div>
+                </div>
+
+                
+
+
+                
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects" data-id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Involved Projects</span>
+
+                <div class="full_research container">
+                    <div>
+                        <div class="skills__content skills__open">
+                            
+                            <!--==================== Interview ====================-->
+
+                            
+                            <div>
+                                <div class="skills__header">
+    
+                                    <div>
+                                        <h3 class="paper__title">Technincal Challengies</h3>
+                                        
+                                    </div>
+        
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div>
+                                    <div class="skills__title">
+                                        HTREC: Improving the HTR output of Greek papyri and Byzantine manuscripts
+                                    </div>
+                                    <div class="skills__subtitle">
+                                        AIcrowd
+                                    </div>
+        
+                                    <div class="skills__list">
+                                        <span class="full_public_subtitle">
+                                            <b>2022 </b> 
+                                            Error Correction Task
+                                            <p>
+                                                1st place synthetic data |   4th place original data 
+                                            </p>
+                                            
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="skills__title">
+                                        Toxic Spans Detection
+                                    </div>
+                                    <div class="skills__subtitle">
+                                        SemEval
+                                    </div>
+        
+                                    <div class="skills__list">
+                                        <span class="full_public_subtitle">
+                                            <b>2021 </b> 
+                                            Sequence Labelling Task
+                                        
+                                        </span>
+                                    </div>
+                                </div>
+                                    
+                                <div>
+                                    <div class="skills__title">
+                                        Bike Sharing Demand
+                                    </div>
+                                    <div class="skills__subtitle">
+                                        Kaggle
+                                    </div>
+        
+                                    <div class="skills__list">
+                                        <span class="full_public_subtitle">
+                                            <b>2018 </b> 
+                                            Regression Task
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+
+                            <div>
+                                <div class="skills__header">
+    
+                                    <div>
+                                        <h3 class="paper__title">Horizon Europe (EU)</h3>
+                                        
+                                    </div>
+        
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+                                <div class="projects__container container grid">
+                                    <!--==================== PROJECTS 1 ====================-->
+                                    <div class="projects__content">
+                                        <img src="assets/projects_img/urbanage.png" 
+                                        style="width: 150px;
+                                        border-radius: .5rem;
+                                        justify-self: center;">
+                                        
+                                        
+                
+                                        <span class="button button--flex button--small button--link projects__button">
+                                            View More
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </span>
+                
+                                        <div class="projects__modal">
+                                            <div class="projects__modal-content">
+                                                <h4 class="projects__modal-title">
+                                                    Enhanced URBAN planning for AGE-friendly cities through disruptive technologies 
+                                                    <a href="https://www.urbanage.eu/" >
+                                                        <img src="assets/projects_img/External_link_cyan.png" 
+                                                                style="width: 20px;">
+                                                    </a>
+                                                </h4>
+                                                
+                                                <i class="uil uil-times projects__modal-close"></i>
+                
+                                                <ul class="projects__modal-projects grid">
+                                                    <li class="projects__modal-project">
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">R Shiny</span>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <p>My responsibilities:</p>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Big Data Cleaning & Preprocesing</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Using Spark Udfs</p>
+                                                        </li>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>NLP tasks</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>NER on Dutch & Finnish, using space</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Text Classification, using spark</p>
+                                                        </li>
+                                                    </li>
+                                                    
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Time series</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Using spark & prophet</p>
+                                                        </li>
+                                                    </li>
+
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Big data web app</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Dashboard, using R shiny</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Listen websocket using R</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>RestAPI, using fastAPI & uvicorn</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Store/Load data & analytics with Minio</p>
+                                                        </li>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div> 
+                
+                                    <!--==================== PROJECTS 2 ====================-->
+                                    <div class="projects__content">
+                                        
+                                            
+                                        <img src="assets/projects_img/iHelp_logo.png" 
+                                        style="width: 110px;
+                                        border-radius: .5rem;
+                                        justify-self: center;">
+                                        
+                
+                                        <span class="button button--flex button--small button--link projects__button">
+                                            View More
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </span>
+                
+                                        <div class="projects__modal">
+                                            <div class="projects__modal-content">
+                                                <h4 class="projects__modal-title">
+                                                    Personalised-healthcare framework using AI for early identification and mitigation of Pancreatic Cancer.
+                                                    <a href="https://ihelp-project.eu/" >
+                                                        <img src="assets/projects_img/External_link_cyan.png" 
+                                                                style="width: 20px;">
+                                                    </a>
+                                                </h4>
+                                                <i class="uil uil-times projects__modal-close"></i>
+                
+                                                <ul class="projects__modal-projects grid">
+                                                    <li class="projects__modal-project">
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <p>My responsibilities:</p>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Data clean & preprocessing</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Electronic Health Records (EHR) </p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Streaming data from IoT</p>
+                                                        </li>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Machine learning & deep leanring models</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Personalised healthcare prediction for with & no cancer patients</p>
+                                                        </li>
+                                                        
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Involve in writing deliverables</p>
+                                                        
+                                                    </li>
+
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>         
+                
+                                    <!--==================== PROJECTS 3 ====================-->
+                                    <div class="projects__content">
+                                        <img src="assets/projects_img/immune_ΑΙ_logo.png" 
+                                        style="width: 100px;
+                                        border-radius: .5rem;
+                                        justify-self: center;">
+                
+                                        <span class="button button--flex button--small button--link projects__button">
+                                            View More
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </span>
+                
+                                        <div class="projects__modal">
+                                            <div class="projects__modal-content">
+                                                <h4 class="projects__modal-title">
+                                                    Prototype Gen-IV Sodium-Cooled Fast Reactor Condition Analysis Project
+                                                    <a href="https://www.ascape-project.eu/blog/AI-helps-improve-effectiveness-immunotherapy" >
+                                                        <img src="assets/projects_img/External_link_cyan.png" 
+                                                                style="width: 20px;">
+                                                    </a>
+                                                </h4>
+                                                <i class="uil uil-times projects__modal-close"></i>
+                
+                                                <ul class="projects__modal-projects grid">
+                                                    <li class="projects__modal-project">
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">R Shiny</span>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <p>My responsibilities:</p>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Analyses Immunotherapy data & comparison with bibliography</p>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Predicts quality of life patient profile using AI</p>
+                                                    </li>
+
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Data Analytics web app</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Dashboard, using R shiny</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>RestAPI, using fastAPI & uvicorn</p>
+                                                        </li>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Involve in writing deliverables</p>
+                                                        
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!--==================== PROJECTS 4 ====================-->
+                                    <div class="projects__content">
+                                        <img src="assets/projects_img/DSLogo.png" 
+                                        style="width: 150px;
+                                        border-radius: .5rem;
+                                        justify-self: center;">
+                
+                                        <span class="button button--flex button--small button--link projects__button">
+                                            View More
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </span>
+                
+                                        <div class="projects__modal">
+                                            <div class="projects__modal-content">
+                                                <h4 class="projects__modal-title">
+                                                    An AI-Enhanced Classroom for Deeper Learning in STEM
+                                                    <a href="https://discoveryspace.eu/" >
+                                                        <img src="assets/projects_img/External_link_cyan.png" 
+                                                                style="width: 20px;">
+                                                    </a>
+                                                </h4>
+                                                <i class="uil uil-times projects__modal-close"></i>
+                
+                                                <ul class="projects__modal-projects grid">
+                                                    <li class="projects__modal-project">
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <p>My responsibilities:</p>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Deploy Learning Path Planner</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Create learning path</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Evaluate students</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Suggest next step of student</p>
+                                                        </li>
+                                                    </li>
+
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Full Deploy of Planner</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Planner Graph, using python</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>RestAPI to interact with agent, using fastAPI & uvicorn</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Deploy with Docker</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Create CI/CD with Jenkins</p>
+                                                        </li>
+                                                    </li>
+
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Technical Lead from ATC side</p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Presenter in Plenaries</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Involve in writing deliverables</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>Main developer</p>
+                                                        </li>
+                                                    </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!--==================== PROJECTS 5 ====================-->
+                                    <div class="projects__content">
+                                        <img src="assets/projects_img/TITAN-Logo.png" 
+                                        style="width: 90px;
+                                        border-radius: .5rem;
+                                        justify-self: center;">
+                
+                                        <span class="button button--flex button--small button--link projects__button">
+                                            View More
+                                            <i class="uil uil-arrow-right button__icon"></i>
+                                        </span>
+                
+                                        <div class="projects__modal">
+                                            <div class="projects__modal-content">
+                                                <h4 class="projects__modal-title">
+                                                    AI for Citizen Intelligent Coaching against Disinformation
+                                                    <a href="https://www.titanthinking.eu/" >
+                                                        <img src="assets/projects_img/External_link_cyan.png" 
+                                                                style="width: 20px;">
+                                                    </a>
+                                                </h4>
+                                                <i class="uil uil-times projects__modal-close"></i>
+                
+                                                <ul class="projects__modal-projects grid">
+                                                    <li class="projects__modal-project">
+                                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <p>My responsibilities:</p>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p>Create a virtual assistant based on Socratic dialogue 
+                                                        </p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>chatbots with Rasa</p>
+                                                        </li>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p> state-of-the-art LLMs</p>
+                                                        </li>
+                                                    </li>
+                                                    <li class="projects__modal-project">
+                                                        <i class="uil uil-check-circle projects__modal-icon"></i>
+                                                        <p> Detect disinformation signals from an article </p>
+                                                        <li class="projects__modal-project-ind">
+                                                            <i class="uil uil-check projects__modal-icon"></i>
+                                                            <p>using Deep Learing & LLMs</p>
+                                                        </li>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>                       
+                
+                                    
+                
+                                </div>
+                                
+                            </div>
+
+                            <div>
+                                <div class="skills__header">
+    
+                                    <div>
+                                        <h3 class="paper__title">More AI Projects</h3>
+                                        
+                                    </div>
+        
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                    
+                                </div>
+
+                                <div class="skills__list">
+                                    <span class="full_public_subtitle">
+                                        <b> NLP Japanise Research:</b>  
+                                        NLP for geospatial research in digital Japanese art history (Spacy, Bert, shiny app) 
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">R Shiny</span>
+                                    </span>
+                                </div>
+
+                                <div class="skills__list">
+                                    <span class="full_public_subtitle">
+                                        <b> Capstone Project:</b>  
+                                        Time series fore/nowcasting  to detect cannibalization
+                                        and halo impact of new games (LSTM, CNN-LSTM, ConvLSTM, MiniRocket, Transformer)
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">R</span>
+                                    </span>
+                                </div>
+
+                                <div class="skills__list">
+                                    <span class="full_public_subtitle">
+                                        <b> Bone X-Ray Abnormality Detection:</b>  
+                                        Implementation of  abnormality detection with MURA image dataset(CNN, ResNet, DenseNet) 
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                    </span>
+                                </div>
+
+                                <div class="skills__list">
+                                    <span class="full_public_subtitle">
+                                        <b> Fashion Item Recognition:</b>  
+                                        Given an image of a fashion item, build deep learning models that recognize it, from the Fashion-MNIST dataset (MLP, CNN, Ensemble)
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                    </span>
+                                </div>
+
+                                <div class="skills__list">
+                                    <span class="full_public_subtitle">
+                                        <b> NN and EM from scratch:</b>  
+                                        Implementation of Neural Network and Expectation-Maximization algorithm from scratch  (without libraries)
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Python</span>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <div class="skills__header">
+    
+                                    <div>
+                                        <h3 class="paper__title">Others</h3>
+                                        
+                                    </div>
+        
+                                    <i class="uil uil-angle-down skills__arrow"></i>
+                                </div>
+
+
+                                <div>
+    
+                                    <div class="skills__list">
+                                        <span class="full_public_subtitle">
+                                            <b> PPM Editor:</b>  
+                                            An implementation of ppm Image processing and filtering
+                                            <span class="tag-label tag-label-info tag-rm-cv-list-label">C++</span>
+                                        </span>
+                                    </div>
+    
+                                    
+    
+                                </div>
+                                
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <!--==================== RESEARCH ====================-->
+            <section class="paper section" id="paper" data-id="paper">
+                <h2 class="section__title">Research</h2>
+                <span class="section__subtitle">Papers & others</span>
+
+                <div class="paper__container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PAPER 1 ====================-->
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/paper_ukiyo_1.jpg" alt="CFD code OpenFOAM mesh for pool scrubbing geometry" class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title">A Study of Distant Viewing of Ukiyo-e Prints</h3>
+                                <p class="paper__description">Japanese Name Entity Recogniser to detect place name 
+                                    that be include in the inscriptions on ukiyo-e prints </p>
+                                <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.632.pdf" target="_blank" class="button button--flex button--small paper__button">
+                                    Read
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>  
+
+                        <!--==================== PAPER 2 ====================-->
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/paper_cann_02.png" alt="Small modular reactor containment pressure and radioactivity" class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title">Product cannibalization</h3>
+                                <p class="paper__description"> Implementation forecasting and nowcasting approaches
+                                    to detect cannibalization and halo impact of new game 
+                                   (RNN, LSTM, CNNLSTM, ConvLSTM, MiniRocket, Transformer)</p>
+                                <a href="http://www.pyxida.aueb.gr/index.php?op=view_object&object_id=8985" target="_blank" class="button button--flex button--small paper__button">
+                                    Read
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>  
+                        
+                        <!--==================== PAPER 3 ====================-->
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/paper_immune.png" alt="Small modular reactor containment pressure and radioactivity" class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title">Statistics - Immunotherapy</h3>
+                                <p class="paper__description"> Profile of toxicities and 
+                                    quality of life in long-term survivors treated with immunotherapy: 
+                                    A prospective cross sectional trial.</p>
+                                <a href="https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.16_suppl.6569" target="_blank" class="button button--flex button--small paper__button">
+                                    Read
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                                             
+
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-paper-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-paper-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    
+                </div>
+
+                <div class="full_research container">
+                    <div>
+                        <div class="skills__content skills__open">
+                            <!--==================== Publications ====================-->
+                            <div class="skills__header">
+    
+                                <div>
+                                    <h3 class="paper__title">Publications</h3>
+                                    <!-- <span class="skills__subtitle">More than 8 years</span> -->
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list">
+                                <span class="full_public_subtitle">
+                                    <div class="container_papers">
+                                        <b class="container_year_papers">2023</b>  
+
+                                            &nbsp;&nbsp; 
+                                            “Error Correcting HTR’ed Byzantine Text”
+
+                                        <div class="rm-cv-list-author">
+                                            Pavlopoulos J, Kougia V, Paraskevi Platanou P, Shabalin S, 
+                                            Liagkou K, Papadatos E, Essler H, Camps J, and  Fischer F
+                                        </div>
+                                        <div>
+                                            26th International Conference on Discovery Science
+                                        </div>
+                                        <div>
+                                            [submitted] 
+                                        </div>
+                                    </div>
+
+                                </span>
+                                <span class="full_public_subtitle">
+                                    <div class="container_papers">
+                                        <b class="container_year_papers">2023</b>   
+
+                                        &nbsp;&nbsp; 
+                                        “Mapping Ukiyo-e Landscapes: NLP for Global Art History”
+                                    
+
+                                        <div class="rm-cv-list-author">
+                                            Liagkou K,  Pavlopoulos J and Machotka E. 	
+                                        </div>
+                                        <div>
+                                            26th International Conference on Discovery Science
+                                        </div>
+                                        <div>
+                                            [submitted] 
+                                            <span class="tag-label tag-label-info tag-rm-cv-list-label">
+                                                Lead Author
+                                            </span>
+                                        </div>
+                                    </div>
+                                </span>
+                                <span class="full_public_subtitle">
+
+                                    <div class="container_papers">
+                                        
+                                        <b class="container_year_papers">2023</b> 
+
+                                        <a href="https://ascopubs.org/doi/abs/10.1200/JCO.2023.41.16_suppl.6569" class="rm-cv-list-title">
+                                            &nbsp;&nbsp;
+                                            <u>“Profile of toxicities and quality of life in long-term survivors treated with immunotherapy: 
+                                                a prospective cross-sectional trial.”</u>
+                                        </a>
+    
+                                        <div class="rm-cv-list-author">
+                                            Baronchelli M,  Lorini L, Paduano C, Smussi D, Stucchi E, Manfredi F, 
+                                            Kalogerini M, Giotis G, Papafragkos S, Kalligeris T, Liagkou K, 
+                                            Carnio S, Galli L, Stragliotto S, Roila F, Ripamonti C, Velutti L, 
+                                            Di Maio M, Gunnellini M, Berruti A, Bossi P 	
+                                        </div>
+                                        <div>
+                                            American Society of Clinical Oncology (ASCO)
+                                        </div>
+                                        <div>
+                                            [published] 
+                                        </div>
+
+                                    </div>
+                                    
+
+                                </span>
+                                <span class="full_public_subtitle">
+                                    <div class="container_papers">
+                                        <b class="container_year_papers">2022</b>   
+
+                                        <a href="http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.632.pdf" class="rm-cv-list-title">
+                                            &nbsp;&nbsp;
+                                            <u>“A Study of Distant Viewing of ukiyo-e prints”</u>
+                                        </a>
+
+                                        <div class="rm-cv-list-author">
+                                            Liagkou K,  Pavlopoulos J and Machotka E.,  	
+                                        </div>
+                                        <div>
+                                            13th Edition of its Language Resources and Evaluation Conference (LREC2022)
+                                        </div>
+                                        <div>
+                                            [published] 
+                                            <span class="tag-label tag-label-info tag-rm-cv-list-label">
+                                                Lead Author
+                                            </span>
+                                        </div>
+                                    </div>
+                                </span>
+
+                                <span class="full_public_subtitle">
+                                    <div class="container_papers">
+                                        <b class="container_year_papers">2022</b>   
+
+                                        <a href="http://www.pyxida.aueb.gr/index.php?op=view_object&object_id=8985" class="rm-cv-list-title">
+                                            &nbsp;&nbsp;
+                                            <u>“Product cannibalization”</u>
+                                        </a>
+
+                                        <div class="rm-cv-list-author">
+                                            Liagkou K	
+                                        </div>
+                                        <div>
+                                            Athens University Of Economics and Business (AEUB)
+                                        </div>
+                                        <div>
+                                            [published] 
+                                        </div>
+                                    </div>
+                                </span>
+                                
+                            </div>
+    
+                            <!--==================== Presentations ====================-->
+
+                            <div class="skills__header">
+    
+                                <div>
+                                    <h3 class="paper__title">Presentations</h3>
+                                    <!-- <span class="skills__subtitle">More than 8 years</span> -->
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list">
+                                <span class="full_public_subtitle">
+                                    <b>2022</b>  
+                                    <a href="https://www.atc.gr/wp-content/uploads/2022/12/ImmuneAI_Workshop_agenda.pdf" class="rm-cv-list-title">
+                                        &nbsp;&nbsp;
+                                        <u>“Predicting toxicities of patients treated with immunotherapy: the role of AI”</u>
+                    
+                                    </a>
+                                    <div>
+                                        ImmuneAI workshop “Artificial Intelligence in serve of Immunotherapy: 
+                                        prediction of quality of life, and toxicity profile”, 
+                                        University of Brescia, Italy [remote]
+                                    </div>
+                                    
+                                </span>
+                                <span class="full_public_subtitle">
+                                    <b>2022</b> 
+                                    <a href="https://japanesedhconference.co.uk/speakers/" class="rm-cv-list-title">
+                                        &nbsp;&nbsp;
+                                        <u>“Mapping meisho: NLP for Japanese Art History”</u>
+                                    </a> 
+                                    <div>
+                                        International Conference “The Digital Turn in Early Modern Japanese Studies”, 
+                                        University of Cambridge, England [remote]
+                                    </div>
+    
+                                </span>
+                                <span class="full_public_subtitle">
+                                    <b>2022</b>  
+
+                                    <a href="https://sites.google.com/view/htrec2022/poster" class="rm-cv-list-title">
+                                        &nbsp;&nbsp;
+                                        <u>“HTREC 2022: "One Rule Based System to rule them all" - 
+                                            Improving the HTR output of Greek papyri and Byzantine manuscripts in a simple way”</u>
+                                    </a> 
+                                    <div>
+                                        International Workshop “Error Correcting HTR for Historical Manuscripts”, 
+                                        Ca’Foscari University of Venice, Italy [official]
+                                        <span class="tag-label tag-label-info tag-rm-cv-list-label">Invited</span>
+                                    </div>
+                                </span>
+                                <span class="full_public_subtitle">
+            
+                                    <b>2022</b>   
+                                    
+                                    <a href="https://sites.google.com/view/htrec2022/poster" class="rm-cv-list-title">
+                                        &nbsp;&nbsp;
+                                        <u>“Mapping Japanese Landscape Prints with NLP: Challenges and Solutions”</u>
+                                    </a> 
+                                    <div>
+                                        International Workshop “Error Correcting HTR for Historical Manuscripts”, 
+                                        Ca’Foscari University of Venice, Italy [official]
+                                    </div>
+                                </span>
+                                
+                                <span class="full_public_subtitle">
+                                    <b>2022</b>  ”Improving Named-Entity Recognition on titles of Ukiyo-e prints: 
+                                    Towards a ‘Distant Viewing’ in Art History”, Digital Humanities Conference 2022 (ADHO)
+                                    Responding to Asian Diversity, 
+                                    Tokyo, Japan [remote]
+    
+                                </span>
+    
+                                <span class="full_public_subtitle">
+                                    <b>2022</b>   “A Study of Distant Viewing of ukiyo-e prints”, 
+                                    13th Edition of its Language Resources and Evaluation  Conference (LREC2022), 
+                                    Marseille, France [remote]
+                                </span>
+                                
+                            </div>
+
+                            <!--==================== Interview ====================-->
+
+                            <div class="skills__header">
+    
+                                <div>
+                                    <h3 class="paper__title">Interview</h3>
+                                    <!-- <span class="skills__subtitle">More than 8 years</span> -->
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list">
+                                <span class="full_public_subtitle">
+                                    <b>April 13, 2023</b>  
+                                    ARC-iJAC Project Spotlights: 
+                                        An Interview on 
+                                        <a href="https://www.arc.ritsumei.ac.jp/e/news/pc/016462.html" class="rm-cv-list-title">
+                                            
+                                            <u> Natural Language Processing 
+                                                for a Geospatial Exploration of Ukiyo-e Prints 
+                                                & AI-powered Text Recognition of Inscriptions 
+                                                in Ukiyo-e Prints</u>
+                                        </a>
+                                    
+                                </span>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <!--==================== REQUEST MEETING ====================-->
+            
+
+            <!--==================== TESTIMONIAL ====================-->
+            
+
+            <!--==================== VIDEOS ====================-->
+            
+
+            <!--==================== PRESENTATION ====================-->
+            
+
+            <!--==================== ONLINE MEETING ====================-->
+            
+
+            <!--==================== CONTACT ME ====================-->
+            
+           
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Konstantina Liagkou</a><br>
+                        <span class="footer__subtitle">Data Scientist</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#qual" class="footer__link">Qualifications</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#paper" class="footer__link">Research</a>
+                        </li>
+                        
+                        
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/konstantina-liagkou-ba9b671b5/" 
+                        target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/Connalia" target="_blank" class="footer__social">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
